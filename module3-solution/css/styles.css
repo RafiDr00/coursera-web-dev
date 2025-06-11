@@ -2,10 +2,52 @@ body {
   font-family: 'Arial', sans-serif;
 }
 
-.navbar {
-  margin-bottom: 20px;
+.navbar-custom {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-h1 {
-  margin-bottom: 30px;
+.navbar a {
+  transition: background 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #f5f5f5;
+}
+
+.section, .section-alt {
+  padding: 50px 20px;
+  height: 400px;
+}
+
+.section {
+  background-color: #f9f9f9;
+}
+
+.section-alt {
+  background-color: #e2e6ea;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+#topBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 50%;
+  transition: background 0.3s;
+}
+
+#topBtn:hover {
+  background-color: #555;
 }
